@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'Abcgintonord';
+    src: url('fonts/GintoRegular.woff2') format('woff2'),
+        url('fonts/GintoBold.woff2') format('woff2');
+    font-weight: medium;
+    font-style: normal;
+}
+
+
+* {
+    overflow-x: hidden;
+    font-family: 'Ginto', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+.navbar {
+    /* border: 1px solid red; */
+    height: 5rem;
+    background-color: #404EED;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.navbar .nav_list a {
+    margin-right: 1.5rem
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.navbar .btn {
+    padding: .8rem;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 1.5rem;
+}
+
+
+.landing {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 60vh;
+    background: url(./assets/Discord\ image.png);
+    background-position: center center;
+    background-size: contain;
+
+}
+
+.section-1 {
+    color: white;
+
+}
+
+.landing_text h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.landing_text h1,
+h5 {
+    text-align: center;
+}
+
+.landing_text {
+    padding-top: 5%;
+}
+
+
+.landing_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 38%;
+    padding-right: 38%;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+
+}
+
+.landing_btn .btn {
+    padding: 1rem;
+    background-color: #fff;
+    color: #000;
+    border-radius: 1.5rem;
+    font-size: 14px;
+}
+
+.landing_btn .btn2 {
+    background-color: #000;
+    color: #fff;
+}
+
+.landing_btn .btn1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing_btn .btn1 img {
+    padding-right: .5rem;
+    width: 20px;
+    height: 20px;
+}
+
+
+.container1 {
+    background-color: #fff;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 21%;
+    padding-right: 21%;
+
+
+}
+
+.description {
+    width: 27rem;
+    overflow-y: hidden;
+}
+
+.container1 .description strong {
+    font-size: 48px;
+    font-weight: bold;
+    color: #23272a;
+
+}
+
+.container1 .description_p {
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #23272a;
+    margin-top: 24px;
+    line-height: 25px;
+}
+
+.container2 {
+    background-color: #f6f6f6;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 21%;
+    padding-right: 21%;
+}
+
+.container2 .description strong {
+    font-size: 48px;
+    font-weight: bold;
+    color: #23272a;
+}
+
+.container2 .description_p {
+    font-size: 18px;
+    color: #23272a;
+    margin-top: 24px;
+    margin-bottom: 0;
+    line-height: 25px;
+}
+
+.container3 {
+    background-color: #fff;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 21%;
+    padding-right: 21%;
+}
+
+.container3 .description strong {
+    font-size: 48px;
+    font-weight: bold;
+    color: #23272a;
+}
+
+.container3 .description_p {
+    font-size: 18px;
+    color: #23272a;
+    margin-top: 24px;
+    margin-bottom: 0;
+    line-height: 25px;
+}
+
+.container4 {
+    background-color: #f6f6f6;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4 .shortDescription {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Abcgintonord', sans-serif;
+    margin-bottom: 24px;
+}
+
+.container4 .description_para {
+    font-size: 20px;
+    text-align: center;
+    width: 1000px;
+}
+
+.container4 .smallDescription {
+    padding-top: 90px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.container4 .image {
+    margin-top: 50px;
+}
+
+.discordBtn {
+    margin-top: 3rem;
+    background-color: #404EED;
+    border-radius: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: #fff;
+}
+
+.discordBtn .btn1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.discordBtn .btn1 img {
+    padding-right: .5rem;
+    width: 20px;
+    height: 20px;
+}
+
+.lang-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.currentLanguage {
+    cursor: pointer;
+}
+
+.footer-box {
+    background-color: #23272a;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: Ggsans, sans-serif !important;
+}
+
+.footer-box-1 {
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-box-11 .footer-box-13 {
+    padding-left: 10rem;
+}
+
+.footer-box-11 .lang-menu {
+    margin-bottom: 3rem;
+}
+
+.footer-box-11 .icon img {
+    padding-right: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.common-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 27%;
+}
+
+.listing {
+    display: flex;
+    flex-direction: column;
+}
+
+.listing a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding-bottom: 1rem;
+}
+
+.listing h3 {
+    color: #5865f2;
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+
+.footer-line {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: 2px solid #5865f2;
+}
+
+.footer-box-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.footer_button a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+.footer_button .btn {
+    background-color: #5865f2;
+    color: #fff;
+    font-weight: 550;
+    padding: .6rem;
+    border-radius: 1.5rem;
+}
